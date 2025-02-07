@@ -66,7 +66,7 @@
             display-name = "NUMBER";
             bindings = <
 &trans      &kp PAGE_UP     &kp LC(LEFT_ARROW)  &kp UP_ARROW  &kp LC(RIGHT)  &kp LEFT_PARENTHESIS                                 &mmv MOVE_UP                     &kp ASTERISK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS    &kp BSPC
-&trans      &kp PAGE_DOWN   &kp LEFT_ARROW      &kp DOWN      &kp RIGHT      &kp RIGHT_PARENTHESIS                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SLASH     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS   &kp PG_UP
+&kp CAPS    &kp PAGE_DOWN   &kp LEFT_ARROW      &kp DOWN      &kp RIGHT      &kp RIGHT_PARENTHESIS                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SLASH     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS   &kp PG_UP
 &kp LA(F4)  &kp KP_NUMLOCK  &none               &none         &none          &kp PRINTSCREEN        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp EQUAL     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp PG_DN
                                                 &kp LA(TAB)   &trans         &kp LG(D)                                                                             &trans        &kp KP_NUMBER_0  &kp COMMA
             >;
