@@ -19,5 +19,6 @@ manifest:
     - name: nice-view-gem
       remote: m165437
       revision: main
+      import: boards/shields/nice_view_gem/nice_view_gem.zmk.yml
   self:
     path: config
