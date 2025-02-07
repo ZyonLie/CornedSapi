@@ -160,7 +160,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - RGB TOG
+  - RGB ON
   - RGB SPI
   - RGB EFF
   - RGB BRI
@@ -175,13 +175,13 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Game, h: toggle}
+  - RGB OFF
   - RGB SPD
   - RGB EFR
   - RGB BRD
   - RGB SAD
   - RGB HUD
-  - $$mdi:volume-off$$
+  - {t: Game, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
