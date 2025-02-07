@@ -79,7 +79,7 @@
             bindings = <
 &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                            &mmv MOVE_UP                     &kp EXCL   &kp AMPS       &kp HASH          &kp DOLLAR  &kp PERCENT  &kp BSPC
 &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp CARET  &kp AMPERSAND  &kp LEFT_BRACKET  &kp RBKT    &kp BSLH     &kp GRAVE
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS       &kp LBRC          &kp RBRC    &kp PIPE     &kp TILDE
+&to 4   &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS       &kp LBRC          &kp RBRC    &kp PIPE     &kp TILDE
                          &trans   &mo 3    &trans                                                             &trans     &trans         &trans
             >;
 
@@ -89,10 +89,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                      &trans          &none   &none   &none   &none  &none  &none
-&rgb_ug RGB_ON   &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI           &trans  &trans  &trans  &none   &none   &none   &none  &none  &none
-&rgb_ug RGB_OFF  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &to 4            &trans          &none   &none   &none   &none  &none  &none
-                                                   &trans           &trans           &trans                                            &trans  &trans  &trans
+&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                       &trans          &none   &none   &none   &none  &none  &none
+&rgb_ug RGB_ON   &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI            &trans  &trans  &trans  &none   &none   &none   &none  &none  &none
+&rgb_ug RGB_OFF  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &trans            &trans          &none   &none   &none   &none  &none  &none
+                                                   &trans           &trans           &trans                                             &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
