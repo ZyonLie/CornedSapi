@@ -126,7 +126,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
   - {t: '`', s: '~'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Game, h: toggle}
   - F9
   - F10
   - F11
@@ -181,7 +181,7 @@ layers:
   - RGB BRD
   - RGB SAD
   - RGB HUD
-  - {t: Game, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
