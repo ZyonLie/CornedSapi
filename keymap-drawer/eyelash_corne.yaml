@@ -34,7 +34,7 @@ layers:
   - C
   - V
   - B
-  - MUTE
+  - $$mdi:volume-off$$
   - Ctl+$$mdi:brightness-7$$
   - N
   - M
