@@ -1,4 +1,4 @@
-#include "/boards/eyelash_corne/eyelash_corne.dtsi"
+#include "eyelash_corne.dtsi"
 
 / {
     chosen {
