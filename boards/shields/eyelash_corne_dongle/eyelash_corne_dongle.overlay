@@ -6,6 +6,7 @@
 */
 
 #include "eyelash_corne.dtsi"
+#include <dt-bindings/zmk/matrix_transform.h>
 
 / {
     chosen {
@@ -32,7 +33,7 @@
                                     RC(3,3) RC(3,4) RC(3,5)                                         RC(3,13) RC(3,7) RC(3,8)
         >;
     };
-    
+
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
