@@ -34,6 +34,12 @@
         >;
     };
 
+    backlight: pwmleds {
+        compatible = "pwm-leds";
+        pwm_led_0 {
+            pwms = <&pwm0 0 PWM_MSEC(1) PWM_POLARITY_NORMAL>;
+        };
+
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
