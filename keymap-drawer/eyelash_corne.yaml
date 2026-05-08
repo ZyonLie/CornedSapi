@@ -239,7 +239,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - T
-  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
   - GameR
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
